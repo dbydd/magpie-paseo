@@ -6,8 +6,8 @@
   "files": ["paseo.agent.js", "README.md"],
   "keywords": ["magpie", "magpie-agent", "paseo", "agent-orchestration", "llm-gateway"],
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/dbydd/magpie-agent-paseo.git" },
-  "homepage": "https://github.com/dbydd/magpie-agent-paseo#readme",
-  "bugs": "https://github.com/dbydd/magpie-agent-paseo/issues",
+  "repository": { "type": "git", "url": "git+https://github.com/dbydd/magpie-paseo.git" },
+  "homepage": "https://github.com/dbydd/magpie-paseo#readme",
+  "bugs": "https://github.com/dbydd/magpie-paseo/issues",
   "magpie": { "agent": "./paseo.agent.js", "icon": "https://raw.githubusercontent.com/getpaseo/paseo/main/packages/website/public/logo.svg" }
 }
