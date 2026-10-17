@@ -1,0 +1,13 @@
+{
+  "name": "@dbydd/agent-paseo",
+  "version": "0.1.0",
+  "description": "Paseo (paseo.sh) as a magpie agent: its Claude sessions run on one of magpie's models, through the gateway as an Anthropic-compatible provider",
+  "type": "module",
+  "files": ["paseo.agent.js", "README.md"],
+  "keywords": ["magpie", "magpie-agent", "paseo", "agent-orchestration", "llm-gateway"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/dbydd/magpie-agent-paseo.git" },
+  "homepage": "https://github.com/dbydd/magpie-agent-paseo#readme",
+  "bugs": "https://github.com/dbydd/magpie-agent-paseo/issues",
+  "magpie": { "agent": "./paseo.agent.js", "icon": "https://raw.githubusercontent.com/getpaseo/paseo/main/packages/website/public/logo.svg" }
+}
