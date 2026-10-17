@@ -3,7 +3,7 @@
 Run [Paseo](https://paseo.sh)'s Claude sessions on a model picked in Magpie. Paseo is an open-source agentic development environment: it orchestrates Claude Code, Codex, Copilot, OpenCode, Pi and more, on your machines, from desktop and mobile.
 
 ```sh
-magpie plugin add @dbydd/agent-paseo
+magpie plugin add magpie-paseo
 ```
 
 On Magpie's Agents page select **Paseo** and switch it on. The plugin writes a `paseo-magpie` profile into `~/.paseo/config.json` under `agents.providers`: a profile extending Paseo's first-class `claude` provider, with magpie's gateway as its `ANTHROPIC_BASE_URL`, the agent's own key, and magpie's model catalog as its model list.

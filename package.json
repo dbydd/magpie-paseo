@@ -1,5 +1,5 @@
 {
-  "name": "@dbydd/agent-paseo",
+  "name": "magpie-paseo",
   "version": "0.1.0",
   "description": "Paseo (paseo.sh) as a magpie agent: its Claude sessions run on one of magpie's models, through the gateway as an Anthropic-compatible provider",
   "type": "module",
